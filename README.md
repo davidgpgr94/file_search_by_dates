@@ -2,7 +2,7 @@
 ## Introduction
 > Find the files whose access, modification or creation date is in the specified date range.
 
-> This script has been created for the second job of the subject Informática Forense in Computer Engineer at UVa, Spain.
+> This script has been created by David González Pérez for the second job of the subject Informática Forense in Computer Engineer at UVa, Spain.
 
 ## Requirements
 1. Python 2.7 installed into C:\Python27
