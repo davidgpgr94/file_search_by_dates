@@ -9,7 +9,7 @@
 2. PyWin32 224. It can be downloaded from https://github.com/mhammond/pywin32/releases
 
 ## Examples for use
-> *INIT_DATE* and *FINAL_DATE* have to have the format *dd-mm-yyyy*
+> **INIT_DATE** and **FINAL_DATE** have to have the format **dd-mm-yyyy**
 ### Find files created between INIT_DATE and FINAL_DATE
 > python search_by_dates.py INIT_DATE FINAL_DATE -c
 
