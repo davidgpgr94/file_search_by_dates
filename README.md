@@ -29,3 +29,6 @@
 > python search_by_dates.py INIT_DATE FINAL_DATE -a -t ../
 
 > This will copy all the files found in the directory ../ with the same relative directory structure
+
+### For more help use -h
+![comando_-h](/uploads/54436ea29bf8ffa3eec8bc2d132954d8/comando_-h.PNG)
