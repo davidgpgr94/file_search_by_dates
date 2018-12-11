@@ -33,4 +33,4 @@
 > This will copy all the files found in the directory ../ with the same relative directory structure
 
 ### For more help use -h
-> ![comando_-h](/uploads/54436ea29bf8ffa3eec8bc2d132954d8/comando_-h.PNG)
+![comando_-h](/uploads/60c224d1026344e19e5479833ad5c839/comando_-h.PNG)
