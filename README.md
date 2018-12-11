@@ -1,14 +1,14 @@
-# Search by dates
-## Introduction
+# SEARCH BY DATES
+## INTRODUCTION
 > Find the files whose access, modification or creation date is in the specified date range.
 
 > This script has been created by David González Pérez for the second job of the subject Informática Forense in Computer Engineer at UVa, Spain.
 
-## Requirements
+## REQUIREMENTS
 1. Python 2.7 installed into C:\Python27
 2. PyWin32 224. It can be downloaded from https://github.com/mhammond/pywin32/releases
 
-## Examples for use
+## EXAMPLES FOR USE
 > **INIT_DATE** and **FINAL_DATE** have to have the format **dd-mm-yyyy**
 ### Find files created between INIT_DATE and FINAL_DATE
 ```shell
