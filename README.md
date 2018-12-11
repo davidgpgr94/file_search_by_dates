@@ -15,7 +15,7 @@
     python search_by_dates.py INIT_DATE FINAL_DATE -c
 ```
 
-> This will copy all the files found in the ./search_by_dates_copy directory with the same relative directory structure
+> This will copy all the files found in the **./search_by_dates_copy** directory with the same relative directory structure
 
 ### Find files updated between INIT_DATE and FINAL_DATE and select the found files that I want to copy
 ```shell
@@ -33,14 +33,16 @@
 
 > The start directory could be specified by absolut or relative path
 
-> **PATH_START** can be a relative or absolute path. If **PATH_START** contains spaces, put it in double quotes like this: "some/relative path/with spaces"
+> **PATH_START** can be a relative or absolute path. If **PATH_START** contains spaces, put it in double quotes like this: "some/relative path/with spaces" or "C:some/absolute path/with spaces"
 
 ### To specify the directory where we want to copy the found files, we have to use -t option.
 ```shell
-    python search_by_dates.py INIT_DATE FINAL_DATE -a -t ../
+    python search_by_dates.py INIT_DATE FINAL_DATE -a -t PATH_TO
 ```
 
 > This will copy all the files found in the directory ../ with the same relative directory structure
+
+> **PATH_TO** can be a relative or absolute path. If **PATH_TO** contains spaces, put it in double quotes like this: "some/relative path/with spaces" or "C:some/absolute path/with spaces"
 
 ### For more help use -h
 ```shell
