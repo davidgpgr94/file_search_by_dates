@@ -23,9 +23,12 @@
 > ![comando_-c_and_-f](/uploads/12af33cf48096d0277186fc0b0e2dbc4/comando_-c_and_-f.PNG)
 
 ### Start searching for files whose last access date is in the range of dates INIT_DATE and FINAL_DATE from the directory specified by the -s option.
-> python search_by_dates.py INIT_DATE FINAL_DATE -a -s ../
+> python search_by_dates.py INIT_DATE FINAL_DATE -a -s PATH_START
 
 > The start directory could be specified by absolut or relative path
+
+> **PATH_START** can be a relative or absolute path. If **PATH_START** contains spaces, put it in double quotes. 
+` "some/relative path/with spaces" `
 
 ### To specify the directory where we want to copy the found files, we have to use -t option.
 > python search_by_dates.py INIT_DATE FINAL_DATE -a -t ../
