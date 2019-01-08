@@ -24,7 +24,6 @@
 
 > This will show a UI where we could select the files to copy. Then, it will copy all selected files in the ./search_by_dates_copy directory with the same relative directory structure
 
-> ![comando_-c_and_-f](/uploads/12af33cf48096d0277186fc0b0e2dbc4/comando_-c_and_-f.PNG)
 
 ### Start searching for files whose last access date is in the range of dates INIT_DATE and FINAL_DATE from the directory specified by the -s option.
 ```shell
@@ -48,4 +47,3 @@
 ```shell
     python search_by_dates.py -h
 ```
-![comando_-h](/uploads/60c224d1026344e19e5479833ad5c839/comando_-h.PNG)
